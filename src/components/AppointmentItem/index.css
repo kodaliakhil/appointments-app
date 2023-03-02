@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.appointment-container {
+  width: 30%;
+  min-height: 50px;
+  padding: 15px;
+  border: #b5b7c4 solid 2px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.title-star-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.star-btn {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+.date {
+  margin: 0;
+  margin-top: 8px;
+  color: #b5b7c4;
+}
